@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+         h1 {
+            color: #333333;
+            text-align: center;
+            font-size: 26px;
+            font-weight: 600;
+            font-family: "Microsoft Yahei";
+        }
+        h3 {
+            color: #252525;
+            font-size: 18px;
+            font-family: "Microsoft Yahei";
+        }
+        p {
+            color: #565656;
+            font-size: 15px;
+            font-family: "Microsoft Yahei";
+            line-height: 30px;
+        }
+        /* TODO 使用分组选择器，将包含class="flower"和class="weather"的元素，设置为居中对齐 */
+        .flower,.weather{
+            text-align:center;
+        }
+        
+        
+        /* TODO 使用后代选择器，设置div内的img元素的宽度为500px，高度为400px */
+        div img{
+            width:500px;
+            height:400px;
+        }
+        
+        
+        
+        /* TODO 设置最后一个p元素的颜色为，字体大小15px，对齐方式为右对齐 */
+        .editor{
+            color:#999999;
+            font-size:15px;
+            text-align:right;
+        }
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>我国大部气温连创新高 多地提前感受5月暖</h1>
+        <p>
+            中国天气网讯 未来几天，我国大部地区气温连升，将连创今年来气温新高。
+            10日前后，黄淮至长江中下游一带最高气温大多会达到25℃上下，较常年同期偏高10℃左右。
+            降水方面，未来三天（3月8日至10日），我国雨雪稀少，只有新疆部分地区降雪比较频繁。
+        </p>
+    </div>  
+    <div>  
+        <h3>我国气温大范围创新高 多地暖如常年5月上旬</h3>
+        <div class="flower">
+            <img src="http://nocturne.bczcdn.com/file/1646733308436_99165/樱花.jpg">
+        </div>
+        <p>
+            昨天，我国大部气温回升，部分地区刷新今年来气温新高。
+            监测显示，截至下午14时，兰州（16.2℃）、石家庄（20.3℃）、西宁（13.7℃）、重庆（22.6℃）
+            等城市都创出今年来气温新高，其中石家庄为今年首次突破20℃。
+        </p>
+        <div class="weather">
+            <!-- TODO 插入图片,图片链接为 -->
+            <img src="http://nocturne.bczcdn.com/file/1646733399370_59969/天气.jpg">
+            
+        </div>
+        <p>
+            降水方面，未来三天，我国雨雪稀少，只有新疆部分地区降雪比较频繁。
+            中央气象台预计，今天新疆北疆北部和伊犁河谷、黑龙江西北部、青海中部、甘肃南部等地部分地区有小到中雪或雨夹雪，
+            其中，新疆北部山区局地有大雪（5～9毫米）。云南西南部和东北部等地部分地区有小雨。
+        </p>
+    </div>  
+    <p class="editor">编辑：夏安科</p>
+</body>
+</html>
